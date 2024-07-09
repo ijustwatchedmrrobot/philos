@@ -35,4 +35,17 @@ typedef struct s_rules
 	t_philo	philos[250];
 }	t_rules;
 
+//init.c
+
+//utils.c
+int	ft_atoi(const char *str);
+long long	timestamp(void);
+long long	time_diff(long long past, long long present);
+
+//launch.c
+
+//error.c
+int	errors(int	err);
+
+
 # endif
